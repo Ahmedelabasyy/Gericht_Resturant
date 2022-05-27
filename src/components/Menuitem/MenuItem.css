@@ -1,0 +1,42 @@
+.app__menuitem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.app__menuitem_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__menuitem_head-name {
+    flex: 1;
+    text-align: left;
+}
+
+.app__menuitem_head-dash {
+    margin: 0 2rem;
+    height: 1px;
+    width: 119px;
+    background: var(--color-golden);
+}
+
+.app__menuitem_head-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.app__menuitem_sub {
+    margin-top: .2rem;
+    text-align: left;
+    width: 100%;
+}
+
+.app__menuitem_sub p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
